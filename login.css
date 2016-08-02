@@ -1,0 +1,28 @@
+@import "http://designmodo.github.io/Flat-UI/dist/css/flat-ui.min.css";
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css";
+@import "https://daneden.github.io/animate.css/animate.min.css";
+
+.required:after {
+	color:red;
+    content: '*';
+    position: absolute; 
+	margin-left: 5px; 
+	font-size: 25px; 
+}
+
+#error
+{
+	color: red;
+}
+
+.navbar-default {
+    background-color: #862A51;
+}
+
+a{
+	color: white !important;
+}
+/*input.four {
+    border-style: solid;
+    border-color: #ff0000 #00ff00 #0000ff rgb(250,0,255);
+}*/

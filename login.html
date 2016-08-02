@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Login</title>
+<meta name="author" content=""/>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!--Jquery & Bootstrap-->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!--Css & Js -->
+
+<link rel="stylesheet" type="text/css" href="login.css"/>
+<script type="text/javascript" src="login.js"></script>
+</head>
+<body>	
+	<div class="container">
+    <div class="row">
+    <div class="Absolute-Center is-Responsive">
+    	 <div class="col-sm-12 col-md-10 col-md-offset-1">
+        <!--Login Form-->
+    	 	 <form action="" id="loginForm">
+    	 	 	 <div class="form-group input-group">
+    	 	 	 	<ul>
+                        <h3>Account Login</h3> 
+                    </ul> 
+                    <p id="error"></p>
+    	 	 	 </div>
+    	 	 	 <div class="form-group row">
+				 <div class="col-xs-4">					
+					<label for="inputEmail" class="col-sm-6 form-control-label required">Email</label>
+					<input type="email" class="form-control" placeholder="Email" id="email"/>
+					</div>
+			</div>
+			<div class="form-group row">
+			<div class="col-xs-4">
+				<label for="inputPAssword" class="col-sm-6 form-control-label required">Password</label>		 
+					<input type="password" class="form-control" placeholder="Password" id="password"/>
+				</div>
+			</div> 
+            <div class="form-group row" align="center">
+                <div class="col-sm-2">
+                     <button type="button" id="userlogin" class="btn btn-success">Sign in</button>
+                </div>
+                <div class="col-sm-2">
+                     <button type="button" id="register" class="btn btn-primary">Register</button>
+                </div>
+            </div>           
+    	 </form>
+         <!--Registration Form-->
+    	 </div>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
