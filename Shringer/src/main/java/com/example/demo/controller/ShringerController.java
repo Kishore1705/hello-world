@@ -31,6 +31,9 @@ public class ShringerController {
 		
 	}
 	
+	@RequestMapping(method=RequestMethod.POST,value="/pp")
+	public void get() {}
+	
 	@RequestMapping(method=RequestMethod.POST,value="/create")
 	public Shringer PostByID(@RequestBody Shringer shrin) {
 		
